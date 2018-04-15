@@ -27,7 +27,7 @@ You can use this [palette file](https://github.com/XBagon/PIPES/blob/master/PATH
 # Usage
 
 ```shell
-  Usage: pipes-lang [options]
+  Usage: pipes [options]
 
   Options:
 

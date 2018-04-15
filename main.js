@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require("fs");
 // const readline = require("readline");
 // const rl = readline.createInterface({
@@ -36,7 +37,6 @@ commander
 
 
 
-console.log(commander.args[0]);
 if(commander.args[0]) {
     fs.createReadStream(commander.args[0]).pipe(new PNG({
         colorType : 2,

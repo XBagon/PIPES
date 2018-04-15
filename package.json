@@ -1,6 +1,6 @@
 {
   "name": "pipes-lang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interpreter for PIPES 2D image programming language",
   "main": "main.js",
   "directories": {
@@ -27,6 +27,9 @@
   ],
   "author": "XBagon",
   "license": "MIT",
+  "bin":{
+    "pipes": "./main.js"
+  },
   "bugs": {
     "url": "https://github.com/XBagon/PIPES/issues"
   },
