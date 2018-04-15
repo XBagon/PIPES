@@ -1,6 +1,6 @@
 {
   "name": "pipes-lang",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Interpreter for PIPES 2D image programming language",
   "main": "main.js",
   "directories": {

@@ -27,7 +27,7 @@ function colorFromPixel(data, index){
 }
 
 commander
-    .version("1.0.0")
+    .version("1.0.3")
     .name("pipes-lang")
     .option("-d, --debug","Debug mode")
     .option("-s, --strict","Strict mode")
@@ -44,7 +44,7 @@ if(commander.args[0]) {
         inputHasAlpha: false,
 
     })).on("parsed",function(){
-        console.log(this.data.length);
+        //console.log(this.data.length);
         interpret(this);
     }).on("error",function(error){
         console.error(error);
@@ -195,7 +195,7 @@ function walker(img) {
         this.current = this.findEntry(this.img);
         if(this.current == null) console.error("No entry point found.");
 
-        console.log("ENTRY");
+        if(commander.debug)console.log("ENTRY");
 
         if(!this.stepwise){
             while (!this.finished) this.nextTile();
