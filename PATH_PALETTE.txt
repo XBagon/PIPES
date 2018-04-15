@@ -5,13 +5,106 @@
 ; Der Alphawert („aa“) gibt an, wie transparent eine Farbe ist. FF ist völlig undurchsichtig, 00 ist völlig transparent.
 ; Eine Palette muss aus sechsundneunzig (96) Farben bestehen. Wenn es weniger Farben gibt, werden die übrigen Farbfelder
 ; auf weiß (FFFFFFFF) festgelegt. Wenn es mehr gibt, werden die übrigen Farben ignoriert.
+
+;0 meta
 FFFFFFFF ;background
 FF000000 ;path
+FF7F7F7F ;blockade
 FF00FF00 ;entry
 FFFF0000 ;exit
-
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+;1 operations
 FF0000FF ;push
+FF7F7FFF ;dup
 FF267F00 ;add
 FF57007C ;sub
 FF7C1800 ;mul
 FF00637C ;div
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+;2
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+;3
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+;4
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+;5 I/O
+FFFFD800 ; in
+FFFF6A00 ; out
+FFFFCE7F ; to_char
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
+FFFFFFFF ;
