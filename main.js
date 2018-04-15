@@ -26,11 +26,14 @@ function colorFromPixel(data, index){
 }
 
 commander
+    .version("1.0.0")
+    .name("pipes-lang")
     .option("-d, --debug","Debug mode")
     .option("-s, --strict","Strict mode")
     .option("-i, --input [args]","Input arguments")
-    .option("-p, --stepwise","Stepwise execution")
+    .option("-p, --stepwise","NOT YET IMPLEMENTED! Stepwise execution")
     .parse(process.argv);
+
 
 
 console.log(commander.args[0]);
@@ -187,7 +190,7 @@ function walker(img) {
     this.color_path = new color(0,0,0);
     this.color_blockade = new color(127,127,127);
     this.color_push = new color(0,0,255);
-    this.color_pop = new color(255,255,0);
+    this.color_rem = new color(255,255,0);
     this.start = function(){
         this.current = this.findEntry(this.img);
         if(this.current == null) console.error("No entry point found.");
@@ -260,8 +263,8 @@ function walker(img) {
                 this.push = true;
                 return;
             }
-            if (color.equals(this.color_pop)) {
-                if (commander.debug) console.log("POP");
+            if (color.equals(this.color_rem)) {
+                if (commander.debug) console.log("REM");
                 this.stack.pop();
                 return;
             }

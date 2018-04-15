@@ -1,0 +1,34 @@
+{
+  "name": "pipes-lang",
+  "version": "1.0.0",
+  "description": "Interpreter for PIPES 2D image programming language",
+  "main": "main.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "pngjs": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XBagon/PIPES.git"
+  },
+  "keywords": [
+    "esoteric",
+    "programming",
+    "language",
+    "image",
+    "2-dimensional"
+  ],
+  "author": "XBagon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XBagon/PIPES/issues"
+  },
+  "homepage": "https://github.com/XBagon/PIPES#readme"
+}
