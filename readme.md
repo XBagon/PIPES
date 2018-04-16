@@ -44,6 +44,8 @@ You can use this [palette file](https://github.com/XBagon/PIPES/blob/master/PATH
 
 **The program will always try to go _straight_, then _right_ and then _left_**.
 
+**Pipes aren't allowed to touch the image borders!**
+
 This is the standard palette, in the future I want to make it easy to use custom palettes.
 
 
