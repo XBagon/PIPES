@@ -27,7 +27,7 @@ function colorFromPixel(data, index){
 }
 
 commander
-    .version("1.0.4")
+    .version("1.0.5")
     .name("pipes-lang")
     .option("-d, --debug","Debug mode")
     .option("-s, --strict","Strict mode")
