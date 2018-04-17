@@ -27,7 +27,7 @@ function colorFromPixel(data, index){
 }
 
 commander
-    .version("1.0.5")
+    .version("1.1.0")
     .name("pipes-lang")
     .option("-d, --debug","Debug mode")
     .option("-s, --strict","Strict mode")
@@ -131,6 +131,30 @@ function interpret(img){
             color : new color(0,225,255),
             func : function() {
                 this.stack.push(this.memory[this.stack.pop()]);
+            }
+        },
+        {
+            name: "TPA" ,
+            color : new color(248,214,255),
+            func : function() {
+                var x = this.current.x;
+                var y = this.current.y;
+                this.current.y = this.stack.pop();
+                this.current.x = this.stack.pop();
+                this.stack.push(x);
+                this.stack.push(y);
+            }
+        },
+        {
+            name: "TPR" ,
+            color : new color(255,251,214),
+            func : function() {
+                var x = this.current.x;
+                var y = this.current.y;
+                this.current.y += this.stack.pop();
+                this.current.x += this.stack.pop();
+                this.stack.push(x);
+                this.stack.push(y);
             }
         },
         {

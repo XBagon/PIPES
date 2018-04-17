@@ -74,13 +74,15 @@ This is the standard palette, in the future I want to make it easy to use custom
 |-|-|-|-|
 |Japanese Laurel|37,127,0|add|removes E1, E2 and pushes E1+E2|
 |Pigment Indigo|87,0,124|subtract|removes E1, E2 and pushes E2-E1|
-|Cedar Wood Finish|124,24,0|multiplicate|removes E1, E2 and pushes E1*E2|
+|Cedar Wood Finish|124,24,0|multiply|removes E1, E2 and pushes E1*E2|
 |Orient|37,127,0|divide|removes E1, E2 and pushes E2/E1|
 
 ### Control Flow Pipes
 |Color|Code|Name|Meaning|
 |-|-|-|-|
 |Pumpkin Skin|168,97,11|compare|compares E2 to E1, and changes direction depending on the result. equal: straight, greater: right, less: left|
+|Blue Chalk|248,214,255|teleport absolute|program jumps to position x = E2 y = E1|
+|Baja White|255,251,214|teleport relative|program jumps on position x = x+E2 y = y+E1|
 
 ### I/O Pipes
 |Color|Code|Name|Meaning|
