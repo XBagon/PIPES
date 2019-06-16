@@ -22,7 +22,7 @@ Most operations work on the stack, but you can save and load from memory.
 $ npm install pipes-lang -g
 ```
 
-You can use this [palette file](https://github.com/XBagon/PIPES/blob/master/PATH_PALETTE.txt) for Paint.NET.
+You can use this [palette file](https://github.com/XBagon/PIPES/blob/master/PIPES_PAINT_NET_PALETTE.txt) for Paint.NET.
 
 # Usage
 
