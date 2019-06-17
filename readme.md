@@ -95,12 +95,23 @@ All the color names are only the names of the nearest named colors.
 
 ## Examples
 
-(Please tell me how I can set images to display pixelated, this is awful.)
-
 # Basic I/O
 
-<img src="https://github.com/XBagon/PIPES/blob/master/examples/IO.png?raw=true" width="48">
+![Basic I/O](/examples/IO.png?row=true)
 
 When you input "r" it will output "right",
 when you input "l" it will output "left,
 otherwise it will return "-1".
+
+# Loop
+
+![Loop](/examples/loop.png?raw=true)
+
+# Not Strict
+
+![Not Strict](/examples/loop.png?raw=true)
+
+# Fibonacci
+
+![Fibonacci](/examples/fibonacci.png?raw=true)
+
