@@ -95,12 +95,9 @@ All the color names are only the names of the nearest named colors.
 
 ## Examples
 
-(Please tell me how I can set images to display pixelated, this is awful.)
-
 # Basic I/O
 
-<img src="https://github.com/XBagon/PIPES/blob/master/examples/IO.png?raw=true" 
-     style="width:50%; image-rendering: pixelated; image-rendering: -moz-crisp-edges; image-rendering: crisp-edges;"/>
+![](scaled-examples/IO.png)
 
 When you input "r" it will output "right",
 when you input "l" it will output "left,
